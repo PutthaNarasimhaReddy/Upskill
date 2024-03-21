@@ -14,18 +14,21 @@ class User {
     private String contactInfo;
     private double balance;
 
-    public User(String name, String address, String contactInfo, double balance) {
+    public User(String name, String address, String contactInfo, double balance)
+    {
         this.name = name;
         this.address = address;
         this.contactInfo = contactInfo;
         this.balance = balance;
     }
 
-    public String getName() {
+    public String getName()
+    {
         return name;
     }
 
-    public String getAddress() {
+    public String getAddress()
+    {
         return address;
     }
 
